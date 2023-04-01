@@ -1,4 +1,4 @@
-# Cloud Search Telegram Bot
+# Cloud Search Telegram Bot (Beta)
 
 This is a Telegram bot written in Go that allows users to request and search for files in Google Drive using the Google Drive API. The bot uses Redis to cache search results and MongoDB to store information about pending, completed, and picked-up requests. The bot also has a web UI that users can use to view search results. The web UI is built using the Gin web framework.
 
