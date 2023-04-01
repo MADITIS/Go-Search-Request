@@ -8,8 +8,6 @@ This is a Telegram bot written in Go that allows users to request and search for
 - Search files: Users can search for files in Google Drive using the bot.
 - Redis integration: The bot uses Redis to cache search results for faster responses.
 - MongoDB integration: The bot uses MongoDB to store information about pending, completed, and picked-up requests.
-- Web UI: The bot has a web UI that users can use to view search results.
-- Gin web framework: The web UI is built using the Gin web framework.
 - Docker support: Docker support will be added in the future.
 - Easy to start: To start the bot, simply run `go run main.go start`.
 
