@@ -27,8 +27,7 @@ This is a Telegram bot written in Go that allows users to request and search for
 
 1. Request files: Users can submit requests for files by sending a message to the bot with the format `/request filename`.
 2. Search files: Users can search for files by sending a message to the bot with the format `/search query`.
-3. View search results: Users can view search results by opening the web UI at `http://localhost:8080/search`.
-4. Pick up requests: Other users can pick up requests to fill them by sending a message to the bot with the format `/pickup request_id`.
+3. View search results: Users can view search results by opening the web UI at the server route.
 
 ## Credits
 
