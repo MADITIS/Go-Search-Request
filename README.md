@@ -19,8 +19,8 @@ This is a Telegram bot written in Go that allows users to request and search for
 2. Install the required packages: `go mod download`
 3. Set up Redis: Install Redis and set up the Redis connection in `config/`.
 4. Set up MongoDB: Install MongoDB and set up the MongoDB connection in `config/`.
-5. Set up Telegram bot API: Follow the instructions [here](https://core.telegram.org/bots#3-how-do-i-create-a-bot) to obtain a bot token and add it to `config/config.yaml`.
-6. Set up Google Drive API: Follow the instructions [here](https://developers.google.com/drive/api/v3/quickstart/go) to obtain the required credentials and add them to `config/config.yaml`.
+5. Set up Telegram bot API:.
+6. Set up Google Drive API:
 7. Start the bot: Run `go run main.go start`.
 
 ## Usage
