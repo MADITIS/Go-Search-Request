@@ -1,4 +1,4 @@
-# 🚀 Go Telegram Bot with Docker, Redis, and MongoDB
+# 🚀 Search & Request Bot Written in Go.
 
 This project is a powerful request and search Telegram bot 🤖, built using Go and leveraging Docker, Redis, and MongoDB. It features a sleek web UI for search results and supports caching for lightning-fast performance.
 
@@ -19,7 +19,8 @@ This project is a powerful request and search Telegram bot 🤖, built using Go 
 
 1. 📥 Clone the repository:
 
-git clone https://github.com/MADITIS/alcsearchgo.git cd yourproject
+    git clone https://github.com/MADITIS/alcsearchgo.git   
+    ```cd alcsearchgo```
 
 
 2. 🔧 Set up the configuration files in the `config` directory. Update the `.env` and `.json` files with the required values, such as API keys, database credentials, and other settings.
@@ -28,6 +29,6 @@ git clone https://github.com/MADITIS/alcsearchgo.git cd yourproject
 
 ## 📈 Future Plans
 
-- 🏋️‍♀️ Make the code more efficient and smaller by removing redundant code
-- 🎨 Improve the web UI for a better user experience
+- Make the code more efficient and smaller by removing redundant code
+- Improve the web UI for a better user experience
 - Write better Readme.
