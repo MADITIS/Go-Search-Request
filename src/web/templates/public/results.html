@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- <style> 
+        h1{
+            background-color: aqua;
+            padding: 2rem;
+        }
+    </style> -->
+    <title>Results</title>
+</head>
+<body>
+      <main id="main">
+        <aside id="aside-info" class="p-1">
+          <div class="top-content">
+            <div class="group-img">
+              <img src="../img/Alchemist Dragon Gold (pfp).jpg" alt="profile photo">
+            </div>
+            <div>
+              <h3 class="title">The Alchemist</h3>
+            </div>
+          </div>
+          <div class="buttom-content">
+            <div class="info">
+              <div class="icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+              </div>
+                <p class="mute">{{ .Query }}</p>
+            </div>
+            <!-- <div class="info"> -->
+              <!-- <div class="icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+              </div>
+              <p class="mute">254 Results</p>
+            </div> -->
+            <!-- <div class="info">
+              <div class="icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+              </div>
+              <p class="mute">233ms </p>
+            <!-- </div> -->
+          </div>
+    
+        </aside>
+        <div id="showcase" class="p-1">
+          <div class="info-nav">
+            <h2 id="search-results">Search Results</h2>
+            <img class="small-img" src="../img/Alchemist Dragon Gold (pfp).jpg" alt="">
+          </div>
+
+            {{ range .AllFiles }}
+                <div class="search-item">
+                    <div class="item-container">
+                    <h4 class="item-name">{{.name }}</h4>
+                    <a href="{{ .link }}" class="btn" target="_blank">Source</a>
+                    <div class="item-info">
+                        <div class="item-type tag">{{ .mimeType }}</div>
+                        <!-- <div class="item-size tag">3.2GB</div> -->
+                    </div>
+                    </div>
+                </div>
+                {{ end }}
+        </div> 
+
+    </main>
+    <script src="https://kit.fontawesome.com/006ebfddac.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
