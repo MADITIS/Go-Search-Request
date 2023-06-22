@@ -19,8 +19,8 @@ This project is a powerful request and search Telegram bot 🤖, built using Go 
 
 1. 📥 Clone the repository:
 
-    git clone https://github.com/MADITIS/alcsearchgo.git   
-    ```cd alcsearchgo```
+    git clone https://github.com/MADITIS/Go-Search-Request
+    ```cd Go-Search-Request```
 
 
 2. 🔧 Set up the configuration files in the `config` directory. Update the `.env` and `.json` files with the required values, such as API keys, database credentials, and other settings.
